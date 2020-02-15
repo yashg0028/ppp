@@ -1,0 +1,17 @@
+[INFO  - 2019-08-27T07:16:55.065Z] GhostDriver - Main - running on port 7178
+[INFO  - 2019-08-27T07:16:55.546Z] Session [a67e3ac0-c89a-11e9-b5fb-d381b4ce61b2] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-08-27T07:16:55.547Z] Session [a67e3ac0-c89a-11e9-b5fb-d381b4ce61b2] - page.customHeaders:  - {}
+[INFO  - 2019-08-27T07:16:55.548Z] Session [a67e3ac0-c89a-11e9-b5fb-d381b4ce61b2] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-08-27T07:16:55.549Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a67e3ac0-c89a-11e9-b5fb-d381b4ce61b2
+[ERROR - 2019-08-27T07:17:02.186Z] Session [a67e3ac0-c89a-11e9-b5fb-d381b4ce61b2] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2019-08-27T07:17:02.186Z] Session [a67e3ac0-c89a-11e9-b5fb-d381b4ce61b2] - page.onError - stack:
+  global code (https://seleniumautomationpractice.blogspot.com/2017/10/functionisogramigoogleanalyticsobjectri.html:754)
+[ERROR - 2019-08-27T07:17:02.300Z] Session [a67e3ac0-c89a-11e9-b5fb-d381b4ce61b2] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2019-08-27T07:17:02.301Z] Session [a67e3ac0-c89a-11e9-b5fb-d381b4ce61b2] - page.onError - stack:
+  global code (https://seleniumautomationpractice.blogspot.com/2017/10/functionisogramigoogleanalyticsobjectri.html:892)
+[ERROR - 2019-08-27T07:17:02.302Z] Session [a67e3ac0-c89a-11e9-b5fb-d381b4ce61b2] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2019-08-27T07:17:02.303Z] Session [a67e3ac0-c89a-11e9-b5fb-d381b4ce61b2] - page.onError - stack:
+  global code (https://seleniumautomationpractice.blogspot.com/2017/10/functionisogramigoogleanalyticsobjectri.html:920)
+[ERROR - 2019-08-27T07:17:02.304Z] Session [a67e3ac0-c89a-11e9-b5fb-d381b4ce61b2] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2019-08-27T07:17:02.305Z] Session [a67e3ac0-c89a-11e9-b5fb-d381b4ce61b2] - page.onError - stack:
+  global code (https://seleniumautomationpractice.blogspot.com/2017/10/functionisogramigoogleanalyticsobjectri.html:948)

@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "create a new data deal sceanrio",
+        "description": "",
+        "id": "deal-data-creation;create-a-new-data-deal-sceanrio",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is already on login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Login page title is facebook",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User enters username and password",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "yash",
+                  "yash@494"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User clicks on login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User moves to details page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "User enters details",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastname",
+                  "surname"
+                ]
+              },
+              {
+                "cells": [
+                  "Raj",
+                  "kumar",
+                  "pop"
+                ]
+              },
+              {
+                "cells": [
+                  "Raj1",
+                  "kumar1",
+                  "pop1"
+                ]
+              },
+              {
+                "cells": [
+                  "Raj 2",
+                  "kumar2",
+                  "pop2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "close browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "deal data creation",
+    "description": "",
+    "id": "deal-data-creation",
+    "keyword": "Feature",
+    "uri": "G:/Workspace/Cucumber_Project/src/main/java/features/map.feature",
+    "tags": []
+  }
+]

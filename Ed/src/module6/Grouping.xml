@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupingSuiteExecution">
+	<test name="Run Specific Group">
+		<groups>
+			<run>
+				<exclude name="Services"></exclude>
+				<exclude name="HomePage"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="module6.Grouping"></class>
+		</classes>
+	</test>
+</suite>
+
+<!-- Excluding two groups -->

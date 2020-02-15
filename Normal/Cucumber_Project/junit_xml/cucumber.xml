@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.068343">
+<testcase classname="deal data creation" name="create a new data deal sceanrio" time="0.068343">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given User is already on login page.........................................undefined
+When Login page title is facebook...........................................undefined
+Then User enters username and password......................................undefined
+And User clicks on login button.............................................undefined
+Then User moves to details page.............................................undefined
+Then User enters details....................................................undefined
+Then close browser..........................................................undefined
+]]></failure>
+</testcase>
+</testsuite>

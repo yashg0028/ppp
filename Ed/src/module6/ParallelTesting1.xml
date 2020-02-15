@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CrossBrowserTesting" parallel="tests">
+	<test name="Chrome">
+		<parameter name="B" value="Chrome"></parameter>
+		<parameter name="Username" value="yashg0028@gmail.com"></parameter>
+		<parameter name="Password" value="yash@494"></parameter>
+		<classes>
+			<class name="module6.Cross_Parallel" />
+		</classes>
+	</test>
+
+	<test name="Chrome1">
+		<parameter name="B" value="Chrome"></parameter>
+		<parameter name="Username" value="yashg0028@gmail.com"></parameter>
+		<parameter name="Password" value="yash@494"></parameter>
+		<classes>
+			<class name="module6.Cross_Parallel" />
+		</classes>
+	</test>
+	
+	</suite>
+	
+						<!--Testing on same browser  parallely -->

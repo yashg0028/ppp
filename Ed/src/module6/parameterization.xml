@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parameterization">
+	<test name="Parameterisation">
+		<parameter name="Username" value="tabhresh@gmail.com"></parameter>
+		<parameter name="Password" value="edureka123"></parameter>
+		<classes>
+			<class name="module6.Parameterisation" />
+		</classes>
+	</test>
+
+	<test name="Parameterisation1">
+		<parameter name="Username" value="yashg0028@gmail.com"></parameter>
+		<parameter name="Password" value="yash@494"></parameter>
+		<classes>
+			<class name="module6.Parameterisation" />
+		</classes>
+	</test>
+</suite>
+
+
+
+<!-- 					 providing two datas for the same test -->

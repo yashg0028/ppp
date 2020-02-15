@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowserTesting]" parallel="tests">
+  <test thread-count="5" name="Chrome_test(failed)" parallel="tests">
+    <parameter name="Username" value="yashg0028@gmail.com"/>
+    <parameter name="Password" value="yash@494"/>
+    <classes>
+      <class name="module6.Parameterisation">
+        <methods>
+          <include name="Logout"/>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- module6.Parameterisation -->
+    </classes>
+  </test> <!-- Chrome_test(failed) -->
+  <test thread-count="5" name="Firefox(failed)" parallel="tests">
+    <parameter name="B" value="Firefox"/>
+    <parameter name="Username" value="yashg0028@gmail.com"/>
+    <parameter name="Password" value="yash@494"/>
+    <classes>
+      <class name="module6.Cross_Parallel">
+        <methods>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="CloseTestCase"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- module6.Cross_Parallel -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+  <test thread-count="5" name="Chrome(failed)" parallel="tests">
+    <parameter name="B" value="Chrome"/>
+    <parameter name="Username" value="yashg0028@gmail.com"/>
+    <parameter name="Password" value="yash@494"/>
+    <classes>
+      <class name="module6.Cross_Parallel">
+        <methods>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- module6.Cross_Parallel -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [CrossBrowserTesting] -->

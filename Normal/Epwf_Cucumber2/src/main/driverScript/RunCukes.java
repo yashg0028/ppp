@@ -1,0 +1,24 @@
+package driverScript;
+
+import org.junit.runner.RunWith;
+
+
+
+
+
+
+
+import cucumber.api.junit.Cucumber;
+import cucumber.api.CucumberOptions;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = {"Feature"},
+glue = "stepDefinition", 
+plugin = {"json:target/Reports/cucumber-report.json","com.cucumber.listener.ExtentCucumberFormatter:target/Reports/cucumber-report.html"}, 
+monochrome = true, 
+tags = {"@MYAccount_CRIS_OneTime_ACH_New_Savings_SaveToWallet,@MYAccount_CRIS_OneTime_ACH_Existing_Savings,@MYAccount_CRIS_OneTime_ACH_New_Checking_SaveToWallet,@MYAccount_CRIS_OneTime_ACH_Existing_Checking,@MYAccount_CRIS_Scheduled_ACH_New_Savings_SaveToWallet,@MYAccount_CRIS_OneTime_ACH_New_Checking_DoNotSaveToWallet,@MYAccount_CRIS_OneTime_CARD_New_SaveToWallet,@MYAccount_CRIS_Scheduled_CARD_New_DoNotSaveToWallet,@MYAccount_Ensemble_Scheduled_ACH_New_SaveToWallet,@MYAccount_Ensemble_OneTime_ACH_Existing_Savings,@MYAccount_Ensemble_OneTime_ACH_New_Savings_DoNotSaveToWallet,@MYAccount_Ensemble_Scheduled_CARD_Existing,@MYAccount_Ensemble_OneTime_CARD_New_SaveToWallet,@MYAccount_Ensemble_Scheduled_CARD_New_DoNotSaveToWallet,@MYAccount_MYA_QBP_CRIS_OneTime_ACH_New_Savings_DoNotSaveToWallet,@MYAccount_MYA_QBP_Ensemble_OneTime_CARD_New_DoNotSaveToWallet,@MYAccount_MYA_QBP_CRIS_OneTime_CARD_New_DoNotSaveToWallet,@MYAccount_MYA_QBP_Ensemble_OneTime_ACH_New_Checking_DoNotSaveToWallet"})
+
+public class RunCukes {
+
+}

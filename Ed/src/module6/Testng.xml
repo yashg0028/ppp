@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupingSuiteExecution">
+	<test name="RunSpecific_Group">
+		<groups>
+			<run>
+				<exclude name="Services"></exclude>
+				<exclude name="HomePage"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="module6.Annotations"></class>
+		 </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+            
+

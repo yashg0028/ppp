@@ -1,0 +1,46 @@
+<xs:SubmitPaymentRequest xmlns:xs="http://www.qwest.com/XMLSchema">
+<xs:EPWFHeaderInfo>
+<bim:RequestId xmlns:bim="http://www.qwest.com/XMLSchema/BIM">000123456162017</bim:RequestId>
+<bim:SendTimeStamp xmlns:bim="http://www.qwest.com/XMLSchema/BIM">2015-06-04T00:01:19.792-06:00</bim:SendTimeStamp>
+<bim:MessageSrcSystem xmlns:bim="http://www.qwest.com/XMLSchema/BIM">THUNDERCAT</bim:MessageSrcSystem>
+</xs:EPWFHeaderInfo>
+<xs:Payment>
+<bim:Email xmlns:bim="http://www.qwest.com/XMLSchema/BIM">epwftest@centurylink.com</bim:Email>
+<xs:ConvenienceFeeAmt>0.00</xs:ConvenienceFeeAmt>
+<bim:TaxAreaCode xmlns:bim="http://www.qwest.com/XMLSchema/BIM"> </bim:TaxAreaCode>
+<xs:TotalTaxAmt>0</xs:TotalTaxAmt>
+<xs:PaymentAmt>22.45</xs:PaymentAmt>
+<xs:PaymentProcessDateTime>2017-06-16T00:01:19.792-06:00</xs:PaymentProcessDateTime>
+<xs:TransactionTypeCode>Payment</xs:TransactionTypeCode>
+<xs:PaymentAction>InitiateSession</xs:PaymentAction>
+<xs:InputChannelId>TCAT_CXP</xs:InputChannelId>
+<xs:PaymentTypeCode>P</xs:PaymentTypeCode>
+<xs:ConsentMediumCode>Phone</xs:ConsentMediumCode>
+<xs:UserId>rdurgai</xs:UserId>
+<xs:SrcApplicationId>THUNDERCAT</xs:SrcApplicationId>
+<xs:DestinationApplicationId>PPP</xs:DestinationApplicationId>
+<xs:CustomerType>CON</xs:CustomerType>
+<xs:PaymentScheduleType>OneTime</xs:PaymentScheduleType>
+<xs:OrderNumber>N1234522</xs:OrderNumber>
+<xs:CustomerFirstName>EPWF</xs:CustomerFirstName>
+<xs:CustomerLastName>TEST</xs:CustomerLastName>
+<xs:EPWFAddressT>
+<xs:StreetAddress1>617 N SOLAR DR</xs:StreetAddress1>
+<xs:City>SIOUX FALLS</xs:City>
+<bim:StateProvince xmlns:bim="http://www.qwest.com/XMLSchema/BIM">CO</bim:StateProvince>
+<xs:PostalCode>57103</xs:PostalCode>
+<xs:AddressType>BLG</xs:AddressType>
+</xs:EPWFAddressT>
+<xs:BillingApplicationId>PPP</xs:BillingApplicationId>
+<xs:BillingAcctId>PPB11010016</xs:BillingAcctId>
+<xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+<!--<xs:ACHAllowedFlag>true</xs:ACHAllowedFlag>
+<xs:CardAllowedFlag>false</xs:CardAllowedFlag>-->
+</xs:Payment>
+<xs:SessionDetail>
+<xs:StyleSheetURL>http://stylesheet.url.com</xs:StyleSheetURL>
+<xs:SuccessNotificationURL>https://www.google.com</xs:SuccessNotificationURL>
+<xs:FailureNotificationURL>https://www.yahoo.com</xs:FailureNotificationURL>
+<xs:CancelNotificationURL>https://www.bing.com</xs:CancelNotificationURL>
+</xs:SessionDetail>
+</xs:SubmitPaymentRequest>

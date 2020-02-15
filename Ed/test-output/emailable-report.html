@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Parameterization</th></tr>
+<tr><td><a href="#t0">Parameterisation</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">40,917</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Parameterisation1</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">33,852</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">8</th><th class="num">0</th><th class="num attn">2</th><th class="num">74,769</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Parameterization</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Parameterisation &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">module6.Parameterisation</td><td><a href="#m0">Logout</a></td><td rowspan="1">1569500992428</td><td rowspan="1">3099</td></tr><tr><th colspan="4">Parameterisation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">module6.Parameterisation</td><td><a href="#m1">CloseTestCase</a></td><td rowspan="1">1569500995539</td><td rowspan="1">6009</td></tr><tr class="passedeven"><td><a href="#m2">Login</a></td><td rowspan="1">1569500986318</td><td rowspan="1">6106</td></tr><tr class="passedeven"><td><a href="#m3">OpenAUT</a></td><td rowspan="1">1569500966241</td><td rowspan="1">20065</td></tr><tr class="passedeven"><td><a href="#m4">OpenBrowser</a></td><td rowspan="1">1569500960715</td><td rowspan="1">5474</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Parameterisation1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">module6.Parameterisation</td><td><a href="#m5">Logout</a></td><td rowspan="1">1569501027917</td><td rowspan="1">3053</td></tr><tr><th colspan="4">Parameterisation1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">module6.Parameterisation</td><td><a href="#m6">CloseTestCase</a></td><td rowspan="1">1569501030978</td><td rowspan="1">4510</td></tr><tr class="passedeven"><td><a href="#m7">Login</a></td><td rowspan="1">1569501020142</td><td rowspan="1">7767</td></tr><tr class="passedeven"><td><a href="#m8">OpenAUT</a></td><td rowspan="1">1569501004456</td><td rowspan="1">15674</td></tr><tr class="passedeven"><td><a href="#m9">OpenBrowser</a></td><td rowspan="1">1569501001648</td><td rowspan="1">2803</td></tr></tbody>
+</table>
+<h2>Parameterisation</h2><h3 id="m0">module6.Parameterisation#Logout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/header/div[8]/details/summary/img&quot;}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LENOVO&apos;, ip: &apos;192.168.43.71&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}), userDataDir=C:\Users\YASHWA~1\AppData\Local\Temp\scoped_dir10368_1163933307}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56353}, acceptInsecureCerts=false, browserVersion=77.0.3865.90, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: afe0a9958e35d51e6ab546c1c9733090
+*** Element info: {Using=xpath, value=/html/body/div[1]/header/div[8]/details/summary/img}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at module6.Parameterisation.Logout(Parameterisation.java:47)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">module6.Parameterisation#CloseTestCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">module6.Parameterisation#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>tabhresh@gmail.com</td><td>edureka123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">module6.Parameterisation#OpenAUT</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">module6.Parameterisation#OpenBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Parameterisation1</h2><h3 id="m5">module6.Parameterisation#Logout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/header/div[8]/details/summary/img&quot;}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LENOVO&apos;, ip: &apos;192.168.43.71&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}), userDataDir=C:\Users\YASHWA~1\AppData\Local\Temp\scoped_dir12068_1992145654}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56399}, acceptInsecureCerts=false, browserVersion=77.0.3865.90, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: bdc5e3b22c4f73466e02314f396b2bc4
+*** Element info: {Using=xpath, value=/html/body/div[1]/header/div[8]/details/summary/img}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at module6.Parameterisation.Logout(Parameterisation.java:47)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">module6.Parameterisation#CloseTestCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">module6.Parameterisation#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>yashg0028@gmail.com</td><td>yash@494</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">module6.Parameterisation#OpenAUT</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">module6.Parameterisation#OpenBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
