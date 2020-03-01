@@ -2,12 +2,6 @@ package Package1;
 
 public class Diagonal1 {
 	
-	for (int l=1;l<=1;l++)
-	{
-		
-	System.out.println(l);
-
-	}
 	
 public static void main(String[] args) {
 
