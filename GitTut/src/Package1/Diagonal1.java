@@ -28,3 +28,7 @@ public static void main(String[] args) {
 	}
 
 }
+for(int y=0;y>=8;++)
+{
+	System.out.println("print");
+}
