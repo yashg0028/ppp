@@ -26,16 +26,5 @@ public static void main(String[] args) {
 		}
 
 	}
-}
-
-for (int l=1;l<=1;l++)
-{
-	
-System.out.println(l);
-
-	for (int p=0;p>9;p++)
-	{
-		System.out.println("print");
-	}
 
 }
